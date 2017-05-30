@@ -15,8 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Providers.Software
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Json", "..\..\..\Net.Chdk.Json\src\Net.Chdk.Json\Net.Chdk.Json.csproj", "{BC3C0D74-5A68-4791-BE4B-8B2BC724C0EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Providers.Base", "..\..\..\Net.Chdk.Providers.Base\src\Net.Chdk.Providers.Base\Net.Chdk.Providers.Base.csproj", "{3E5DF136-E7C5-4ACA-B065-3E6E36217645}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{3e5df136-e7c5-4aca-b065-3e6e36217645}*SharedItemsImports = 4
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{6b11be8b-74cd-4111-bb87-b705eadcb5a2}*SharedItemsImports = 4
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{7f492ad5-c9e5-4e13-9587-d0b88ba8d209}*SharedItemsImports = 4
 		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{83c6a77c-3286-4f5f-b628-3b971097ad05}*SharedItemsImports = 13
@@ -71,6 +74,14 @@ Global
 		{BC3C0D74-5A68-4791-BE4B-8B2BC724C0EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC3C0D74-5A68-4791-BE4B-8B2BC724C0EC}.Release|x64.ActiveCfg = Release|x64
 		{BC3C0D74-5A68-4791-BE4B-8B2BC724C0EC}.Release|x64.Build.0 = Release|x64
+		{3E5DF136-E7C5-4ACA-B065-3E6E36217645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5DF136-E7C5-4ACA-B065-3E6E36217645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5DF136-E7C5-4ACA-B065-3E6E36217645}.Debug|x64.ActiveCfg = Debug|x64
+		{3E5DF136-E7C5-4ACA-B065-3E6E36217645}.Debug|x64.Build.0 = Debug|x64
+		{3E5DF136-E7C5-4ACA-B065-3E6E36217645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5DF136-E7C5-4ACA-B065-3E6E36217645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5DF136-E7C5-4ACA-B065-3E6E36217645}.Release|x64.ActiveCfg = Release|x64
+		{3E5DF136-E7C5-4ACA-B065-3E6E36217645}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
