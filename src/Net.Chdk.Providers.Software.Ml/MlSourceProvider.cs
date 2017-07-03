@@ -10,7 +10,8 @@ namespace Net.Chdk.Providers.Software.Ml
         {
         }
 
+        public override string ProductName => "ML";
+
         protected override string CategoryName => "EOS";
-        protected override string ProductName => "ML";
     }
 }
